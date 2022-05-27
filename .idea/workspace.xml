@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="feat:modulos" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29lhxf3rvj7jWuF38nmi4vc9RbL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "60706fe2dc3397f374bb32d85ba3d3d3"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServicoPessoaApplication">
+    <configuration name="ServicoPessoaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="servico-pessoa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.servicopessoa.ServicoPessoaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicoProdutoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="servico-produto" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.servicoproduto.ServicoProdutoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicoVendaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="servico-venda" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.servicovenda.ServicoVendaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="" />
+      <created>1653693827665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653693827665</updated>
+      <workItem from="1653693829787" duration="1356000" />
+      <workItem from="1653695220644" duration="85000" />
+    </task>
+    <task id="LOCAL-00001" summary="projeto com modulos">
+      <created>1653694467180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653694467180</updated>
+    </task>
+    <task id="LOCAL-00002" summary="projeto com modulos - fix pom.xml">
+      <created>1653694639753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653694639753</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat:modulos">
+      <created>1653694859551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653694859551</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat:modulos">
+      <created>1653695033685</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653695033685</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/servico-pessoa" />
+      <path value="$PROJECT_DIR$/servico-produto" />
+      <path value="$PROJECT_DIR$/servico-venda" />
+    </ignored-roots>
+    <MESSAGE value="projeto com modulos" />
+    <MESSAGE value="projeto com modulos - fix pom.xml" />
+    <MESSAGE value="feat:modulos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:modulos" />
+  </component>
+</project>
