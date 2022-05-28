@@ -4,21 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="feat:modulos" />
+    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="feat:modulos">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/controller/ProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/exception/EntityNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/exception/NegocioException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/exception/ProdutoNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/ProdutoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/service/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/service/ProdutoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/servico-venda/pom.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29lhxf3rvj7jWuF38nmi4vc9RbL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,6 +79,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "jdk.selected.JAVA_MODULE": "17",
@@ -39,7 +88,8 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "60706fe2dc3397f374bb32d85ba3d3d3"
+    "spring.configuration.checksum": "60706fe2dc3397f374bb32d85ba3d3d3",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -82,6 +132,7 @@
       <updated>1653693827665</updated>
       <workItem from="1653693829787" duration="1356000" />
       <workItem from="1653695220644" duration="85000" />
+      <workItem from="1653695537104" duration="2058000" />
     </task>
     <task id="LOCAL-00001" summary="projeto com modulos">
       <created>1653694467180</created>
