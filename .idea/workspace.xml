@@ -5,19 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="feat:modulos">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/controller/ProdutoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/exception/EntityNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/exception/NegocioException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/exception/ProdutoNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/ProdutoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/service/ProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/service/ProdutoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/Assembler/ProdutoDtoAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/Assembler/ProdutoInputAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/core/jackson/PageJsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/core/modelmapper/ModelMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/core/validation/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/dto/ProdutoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/dto/input/ProdutoInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/exceptionhandler/ApiExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/exceptionhandler/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/exceptionhandler/ProblemType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/resources/messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servico-produto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/controller/ProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/ProdutoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/ProdutoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/service/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/service/ProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/service/ProdutoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/service/impl/ProdutoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +52,7 @@
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/servico-venda/pom.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="JpbToolWindowState">
@@ -71,27 +82,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "60706fe2dc3397f374bb32d85ba3d3d3",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;79b28e1e08e0fe7691d52d43c9a470cc&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.letscode.servicoproduto.domain.dto" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -99,14 +116,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServicoPessoaApplication">
-    <configuration name="ServicoPessoaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="servico-pessoa" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.servicopessoa.ServicoPessoaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ServicoProdutoApplication">
     <configuration name="ServicoProdutoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="servico-produto" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.servicoproduto.ServicoProdutoApplication" />
@@ -132,7 +142,9 @@
       <updated>1653693827665</updated>
       <workItem from="1653693829787" duration="1356000" />
       <workItem from="1653695220644" duration="85000" />
-      <workItem from="1653695537104" duration="2058000" />
+      <workItem from="1653695537104" duration="5932000" />
+      <workItem from="1653704642073" duration="1342000" />
+      <workItem from="1653751369706" duration="9268000" />
     </task>
     <task id="LOCAL-00001" summary="projeto com modulos">
       <created>1653694467180</created>

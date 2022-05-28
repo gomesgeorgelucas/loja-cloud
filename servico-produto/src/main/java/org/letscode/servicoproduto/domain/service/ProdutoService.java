@@ -1,18 +1,26 @@
 package org.letscode.servicoproduto.domain.service;
 
+import org.letscode.servicoproduto.domain.dto.ProdutoDTO;
+import org.letscode.servicoproduto.domain.dto.input.ProdutoInput;
 import org.letscode.servicoproduto.domain.model.Produto;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
 public interface ProdutoService {
 
-    List<Produto> findAll();
+    List<ProdutoDTO> findAll();
 
-    Produto findById(Long id);
+    ProdutoDTO findById(Long id);
 
-    Produto update(Long id, Produto produto);
+    ProdutoDTO update(Long id, ProdutoInput produtoInput);
 
     void delete(Long id);
 
-    Produto save(Produto produto);
+    ProdutoDTO save(ProdutoInput produtoInput);
+
+    Page<ProdutoDTO> findByNomeProdutoContaining(String nomeProduto, Pageable pageable);
+
+    Page<ProdutoDTO> findAllPage(Pageable pageable);
 }

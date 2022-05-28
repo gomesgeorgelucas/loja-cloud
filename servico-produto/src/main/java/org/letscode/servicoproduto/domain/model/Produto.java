@@ -1,18 +1,22 @@
 package org.letscode.servicoproduto.domain.model;
 
-import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.PositiveOrZero;
+import java.io.Serializable;
+import java.math.BigDecimal;
 
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Data
 @Entity
-@Table(name = "tb_produto")
-public class Produto {
+@Table
+public class Produto implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     @EqualsAndHashCode.Include
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,10 +27,11 @@ public class Produto {
     @Column(nullable = false)
     private String nomeProduto;
 
-    private String Descricao;
+    private String descricao;
 
     @NotNull
+    @PositiveOrZero
     @Column(nullable = false)
-    private String preco;
+    private BigDecimal preco;
 
 }
