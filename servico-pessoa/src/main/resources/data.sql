@@ -1,0 +1,2 @@
+insert into lc_pessoa(login_pessoa, name_pessoa, passwd_pessoa, surname_pessoa) values ('admin','admin name', 'admin', 'admin surname');
+insert into lc_pessoa(login_pessoa, name_pessoa, passwd_pessoa, surname_pessoa) values ('user','user name', 'user', 'user surname');
