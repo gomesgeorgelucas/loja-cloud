@@ -27,6 +27,8 @@ public class Produto implements Serializable {
     @Column(nullable = false)
     private String nomeProduto;
 
+    private String marca;
+
     private String descricao;
 
     @NotNull

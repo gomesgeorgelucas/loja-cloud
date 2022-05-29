@@ -18,6 +18,7 @@ public class ProdutoInput {
     @NotBlank
     private String nomeProduto;
 
+    private String marca;
     private String descricao;
 
     @NotNull
