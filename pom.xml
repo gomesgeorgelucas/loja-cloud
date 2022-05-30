@@ -24,6 +24,7 @@
         <module>
             servico-produto
         </module>
+        <module>EurekaServer</module>
     </modules>
 
 </project>
