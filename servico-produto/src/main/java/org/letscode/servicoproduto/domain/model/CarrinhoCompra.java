@@ -4,6 +4,8 @@ import lombok.*;
 import org.hibernate.annotations.GeneratorType;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.PositiveOrZero;
+import java.math.BigDecimal;
 import java.util.List;
 
 @Entity
@@ -24,5 +26,6 @@ public class CarrinhoCompra {
 
     private Integer quantidade;
 
-    private Double precoProduto;
+    @PositiveOrZero
+    private BigDecimal precoUnitario;
 }

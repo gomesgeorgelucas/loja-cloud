@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 9080
   error:
     include-stacktrace: never
     include-binding-errors: never
@@ -16,7 +16,7 @@ spring:
     open-in-view: false
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     defer-datasource-initialization: true
     show-sql: true
   main:

@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)">
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/CarrinhoCompraRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/PessoaFeingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/model/Venda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/repository/VendaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/service/PessoaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/service/PessoaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/controller/ProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

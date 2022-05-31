@@ -6,6 +6,8 @@ import org.letscode.servicopessoa.repository.PessoaRepository;
 import org.letscode.servicopessoa.service.interfaces.IPessoaService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @AllArgsConstructor
 public class PessoaServiceImpl implements IPessoaService {
@@ -37,4 +39,9 @@ public class PessoaServiceImpl implements IPessoaService {
     public void deletePessoa(Long id) {
         pessoaRepository.deleteById(id);
     }
+
+    public List<PessoaModel> getPessoas(){
+        return pessoaRepository.findAll();
+    }
+
 }

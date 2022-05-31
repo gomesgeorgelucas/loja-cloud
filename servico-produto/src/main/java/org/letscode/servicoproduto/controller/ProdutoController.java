@@ -1,8 +1,10 @@
 package org.letscode.servicoproduto.controller;
 
+import org.letscode.servicopessoa.model.PessoaModel;
 import org.letscode.servicoproduto.domain.dto.ProdutoDTO;
 import org.letscode.servicoproduto.domain.dto.input.ProdutoInput;
 import org.letscode.servicoproduto.domain.model.Produto;
+import org.letscode.servicoproduto.domain.repository.PessoaFeingRepository;
 import org.letscode.servicoproduto.domain.service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -22,6 +24,9 @@ public class ProdutoController {
 
     @Autowired
     private ProdutoService produtoService;
+
+    @Autowired
+    private PessoaFeingRepository pessoaFeingRepository;
 
     @GetMapping
     public ResponseEntity<List<ProdutoDTO>> findAll() {
@@ -60,6 +65,11 @@ public class ProdutoController {
     @ResponseStatus(code = HttpStatus.NO_CONTENT)
     public void deleteById(@PathVariable  Long id) {
         produtoService.delete(id);
+    }
+
+    @GetMapping("teste")
+    public ResponseEntity<List<PessoaModel>> teste(){
+        return ResponseEntity.ok(pessoaFeingRepository.buscarTodos());
     }
 
 }

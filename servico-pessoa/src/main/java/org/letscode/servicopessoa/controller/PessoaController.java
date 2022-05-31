@@ -5,6 +5,8 @@ import org.letscode.servicopessoa.model.PessoaModel;
 import org.letscode.servicopessoa.service.PessoaServiceImpl;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RequestMapping("/api/v1/loja-cloud/pessoa")
 @RestController
 @AllArgsConstructor
@@ -19,6 +21,11 @@ public class PessoaController {
     @GetMapping("/{id}")
     public PessoaModel getPessoa(@PathVariable Long id) {
         return pessoaService.readPessoa(id);
+    }
+
+    @GetMapping()
+    public List<PessoaModel> getPessoas() {
+        return pessoaService.getPessoas();
     }
 
     @PutMapping("/{id}")
