@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servico-produto/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +96,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication (1)">
+  <component name="RunManager" selected="Spring Boot.ServicoProdutoApplication">
     <configuration name="EurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="EurekaServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.eurekaserver.EurekaServerApplication" />

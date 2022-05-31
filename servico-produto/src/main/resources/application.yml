@@ -71,10 +71,7 @@ info:
     nome: "Serviço dos Produtos"
     descricao: "API de Produtos"
 
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: localhost
-    register-with-eureka: true
+  eureka:
+    client:
+      serviceUrl:
+        defaultZone: localhost
