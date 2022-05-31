@@ -19,9 +19,9 @@ spring:
           prefer-ip: true
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/loja-cloud
+    url: jdbc:postgresql://localhost:5433/loja-cloud
     username: postgres
-    password: password
+    password: postgres
   jpa:
     open-in-view: false
     database-platform: org.hibernate.dialect.PostgreSQLDialect
@@ -73,4 +73,8 @@ info:
 
 eureka:
   instance:
-    hostname: localhost
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: localhost
+    register-with-eureka: true
