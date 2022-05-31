@@ -7,6 +7,8 @@ server:
     include-exception: false
 
 spring:
+  application:
+    name: servico-produto
   boot:
     admin:
       client:
@@ -68,3 +70,7 @@ info:
   application:
     nome: "Serviço dos Produtos"
     descricao: "API de Produtos"
+
+eureka:
+  instance:
+    hostname: localhost

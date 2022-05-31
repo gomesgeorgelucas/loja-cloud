@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb30dca4-64bd-4f40-8262-b20424d2e59e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,13 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="EurekaServer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ServicoPessoaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="servico-pessoa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.servicopessoa.ServicoPessoaApplication" />
@@ -130,7 +122,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication (1)" />
       <item itemvalue="Spring Boot.ServicoPessoaApplication" />
       <item itemvalue="Spring Boot.ServicoVendaApplication" />
