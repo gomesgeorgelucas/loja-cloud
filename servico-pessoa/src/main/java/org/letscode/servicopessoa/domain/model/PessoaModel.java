@@ -1,4 +1,4 @@
-package org.letscode.servicopessoa.model;
+package org.letscode.servicopessoa.domain.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -16,16 +16,16 @@ public class PessoaModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_pessoa")
-    Long pessoaId;
+    private Long pessoaId;
 
     @Column(name = "name_pessoa", nullable = false)
-    String pessoaName;
+    private String pessoaName;
     @Column(name = "surname_pessoa", nullable = false)
-    String pessoaSurname;
+    private String pessoaSurname;
 
     @Column(name = "login_pessoa", unique = true, nullable = false)
-    String pessoaLogin;
+    private String pessoaLogin;
 
     @Column(name = "passwd_pessoa", nullable = false)
-    String pessoaPassword;
+    private String pessoaPassword;
 }

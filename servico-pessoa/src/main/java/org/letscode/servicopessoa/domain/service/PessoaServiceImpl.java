@@ -1,9 +1,9 @@
-package org.letscode.servicopessoa.service;
+package org.letscode.servicopessoa.domain.service;
 
 import lombok.AllArgsConstructor;
-import org.letscode.servicopessoa.model.PessoaModel;
-import org.letscode.servicopessoa.repository.PessoaRepository;
-import org.letscode.servicopessoa.service.interfaces.IPessoaService;
+import org.letscode.servicopessoa.domain.model.PessoaModel;
+import org.letscode.servicopessoa.domain.repository.PessoaRepository;
+import org.letscode.servicopessoa.domain.service.interfaces.IPessoaService;
 import org.springframework.stereotype.Service;
 
 @Service

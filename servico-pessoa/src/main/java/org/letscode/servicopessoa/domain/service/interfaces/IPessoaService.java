@@ -1,6 +1,6 @@
-package org.letscode.servicopessoa.service.interfaces;
+package org.letscode.servicopessoa.domain.service.interfaces;
 
-import org.letscode.servicopessoa.model.PessoaModel;
+import org.letscode.servicopessoa.domain.model.PessoaModel;
 
 public interface IPessoaService {
     PessoaModel createPessoa(PessoaModel pessoaModel);
