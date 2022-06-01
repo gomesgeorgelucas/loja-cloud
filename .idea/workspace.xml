@@ -4,25 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="update ignore">
-      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/assembler/CreateProdutoDTOAssembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/assembler/ReadPessoaDTOAssembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/core/modelmapper/ModelMapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/core/validation/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/dto/CreatePessoaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/dto/ReadPessoaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="tentativa de reativo, falhou">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_30_2022_6_53_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_30_2022_6_53_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_30_2022_7_03_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_30_2022_7_03_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/model/PessoaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/model/PessoaModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/repository/PessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/repository/PessoaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/service/PessoaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/service/PessoaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/service/interfaces/IPessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/service/interfaces/IPessoaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/core/jackson/PageJsonSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/assembler/CreateProdutoDTOAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/assembler/CreatePessoaDTOAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/assembler/ReadPessoaDTOAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/assembler/ReadPessoaDTOAssembler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="servico-vendas" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,27 +50,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Kareen/IdeaProjects/loja-cloud/servico-pessoa/src/main/java/org/letscode/servicopessoa/assembler",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "60706fe2dc3397f374bb32d85ba3d3d3"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kareen/IdeaProjects/loja-cloud/servico-pessoa/src/main/java/org/letscode/servicopessoa/assembler&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;60706fe2dc3397f374bb32d85ba3d3d3&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kareen\IdeaProjects\loja-cloud\servico-pessoa\src\main\java\org\letscode\servicopessoa\assembler" />
@@ -129,6 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ServicoPessoaApplication" />
+      <item itemvalue="Spring Boot.ServicoProdutoApplication" />
+      <item itemvalue="Spring Boot.ServicoVendaApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
