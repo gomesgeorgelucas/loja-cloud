@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)">
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/CarrinhoCompraRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/PessoaFeingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/model/Venda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/repository/VendaRepository.java" afterDir="false" />
+    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="project structures, dtos, dependencies and mapper">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/model/PedidoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/model/VendaModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/repository/PedidoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_30_2022_6_53_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_30_2022_6_53_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_30_2022_7_03_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_30_2022_7_03_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/service/PessoaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/service/PessoaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/controller/ProdutoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-venda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-venda/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/model/Venda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/repository/VendaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/repository/VendaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-venda/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-venda/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,24 +44,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/servico-produto/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/servico-venda/pom.xml" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="JpbToolWindowState">
-    <option name="myId2FirstActivated">
-      <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
-    </option>
-    <option name="myId2Visible">
-      <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
-      </map>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -75,31 +57,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-11",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "60706fe2dc3397f374bb32d85ba3d3d3"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
-    ]
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kareen/IdeaProjects/loja-cloud/servico-pessoa/src/main/java/org/letscode/servicopessoa/assembler&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;60706fe2dc3397f374bb32d85ba3d3d3&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kareen\IdeaProjects\loja-cloud\servico-pessoa\src\main\java\org\letscode\servicopessoa\assembler" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.letscode.servicopessoa.core.modelmapper" />
+      <recent name="org.letscode.servicopessoa.core.validation" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -107,10 +94,17 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServicoProdutoApplication">
+  <component name="RunManager" selected="Spring Boot.ServicoVendaApplication">
     <configuration name="EurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="EurekaServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="EurekaServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.EurekaServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,6 +131,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication (1)" />
       <item itemvalue="Spring Boot.ServicoPessoaApplication" />
       <item itemvalue="Spring Boot.ServicoVendaApplication" />
@@ -207,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653698881853</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added eureka server and added eureka discovery to pessoa">
+      <created>1653955658365</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653955658365</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update ignore">
+      <created>1653955713688</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653955713688</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +246,8 @@
     <MESSAGE value="added-version control (idea)" />
     <MESSAGE value="feature:[service,model,repository] - Basic CRUD" />
     <MESSAGE value="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)" />
+    <MESSAGE value="added eureka server and added eureka discovery to pessoa" />
+    <MESSAGE value="update ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ignore" />
   </component>
 </project>
