@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)">
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/CarrinhoCompraRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/PessoaFeingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/model/Venda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/repository/VendaRepository.java" afterDir="false" />
+    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="adding PessoaDTO, Mapper">
+      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/dto/PessoaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/dto/input/PessoaInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/modelmapper/ModelMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/modelmapper/PessoaDtoAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/modelmapper/PessoaInputAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_30_2022_6_53_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_30_2022_6_53_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_30_2022_7_03_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_30_2022_7_03_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/service/PessoaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/service/PessoaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/controller/ProdutoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/model/PessoaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/model/PessoaModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,25 +25,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="pessoa" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/servico-produto/pom.xml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/servico-venda/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/servico-produto/pom.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -75,31 +72,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-11",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "60706fe2dc3397f374bb32d85ba3d3d3"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
-    ]
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -107,7 +85,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServicoProdutoApplication">
+  <component name="RunManager">
     <configuration name="EurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="EurekaServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.eurekaserver.EurekaServerApplication" />
@@ -146,7 +124,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="" />
+      <changelist id="279dcdd8-42c5-446a-9c1e-1972110eda69" name="Changes" comment="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)" />
       <created>1653693827665</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -157,6 +135,7 @@
       <workItem from="1653754475107" duration="1014000" />
       <workItem from="1653890607133" duration="46000" />
       <workItem from="1653949917187" duration="350000" />
+      <workItem from="1654045083184" duration="4820000" />
     </task>
     <task id="LOCAL-00001" summary="projeto com modulos">
       <created>1653694467180</created>
@@ -237,6 +216,7 @@
     <MESSAGE value="added-version control (idea)" />
     <MESSAGE value="feature:[service,model,repository] - Basic CRUD" />
     <MESSAGE value="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)" />
+    <MESSAGE value="adding PessoaDTO, Mapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding PessoaDTO, Mapper" />
   </component>
 </project>

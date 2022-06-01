@@ -1,13 +1,14 @@
 package org.letscode.servicopessoa.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import org.hibernate.Hibernate;
 
 import javax.persistence.*;
+import java.util.Objects;
 
-@Data
+@Getter
+@Setter
+@RequiredArgsConstructor
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
@@ -28,4 +29,8 @@ public class PessoaModel {
 
     @Column(name = "passwd_pessoa", nullable = false)
     String pessoaPassword;
+
+    @Column(name = "address_pessoa")
+    String pessoaAddress;
+
 }
