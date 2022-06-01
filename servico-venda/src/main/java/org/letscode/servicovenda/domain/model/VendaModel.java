@@ -1,29 +1,24 @@
 package org.letscode.servicovenda.domain.model;
 
 import lombok.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Column;
+import org.springframework.data.relational.core.mapping.Table;
 
-
-import javax.persistence.*;
 import java.math.BigDecimal;
 
-@Entity(name = "lc_vendas")
+@Table(value = "lc_vendas")
 @Data
-@Builder
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@AllArgsConstructor
-@NoArgsConstructor
 public class VendaModel {
 
     @Id
     @EqualsAndHashCode.Include
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_venda")
+    @Column(value = "id_venda")
     private Long vendaId;
 
-    @Column(name = "id_pessoa")
+    @Column(value = "id_pessoa")
     private Long pessoaId;
 
-    @Column(name = "total_venda")
+    @Column(value = "total_venda")
     private BigDecimal vendaTotal;
-
 }

@@ -1,30 +1,27 @@
 package org.letscode.servicovenda.domain.model;
 
 import lombok.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Column;
+import org.springframework.data.relational.core.mapping.Table;
 
-import javax.persistence.*;
 import java.math.BigDecimal;
 
-@Entity(name = "lc_vendas_pedido")
+@Table(value = "lc_vendas_pedido")
 @Data
-@Builder
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@AllArgsConstructor
-@NoArgsConstructor
 public class PedidoModel {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "id_venda")
+    @Column(value = "id_venda")
     private Long vendaId;
 
-    @Column(name = "id_produto")
+    @Column(value = "id_produto")
     private Long produtoId;
 
-    @Column(name = "quantidade_produto")
+    @Column(value = "quantidade_produto")
     private Long produtoQuantidade;
 
-    @Column(name = "preco_produto")
+    @Column(value = "preco_produto")
     private BigDecimal produtoPreco;
 }

@@ -7,20 +7,13 @@ server:
     include-exception: false
 
 spring:
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/loja-cloud
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/loja-cloud
     username: postgres
     password: password
-  jpa:
-    open-in-view: false
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-    hibernate:
-      ddl-auto: create
-    defer-datasource-initialization: true
-    show-sql: true
+    pool:
+      enabled: true
+      initial-size: 10
+
   main:
     banner-mode: off
-  sql:
-    init:
-      mode: always
