@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="DTO mapper Pessoa">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_30_2022_6_53_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_30_2022_7_03_PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="ammend-missing pedido dto">
+      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/config/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_30_2022_6_53_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_30_2022_6_53_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_30_2022_7_03_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_30_2022_7_03_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servico-pessoa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/ServicoPessoaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/ServicoPessoaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/assembler/CreatePessoaDTOAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/assembler/ReadPessoaDTOAssembler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/core/modelmapper/ModelMapperConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/dto/CreatePessoaDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/dto/ReadPessoaDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/model/PessoaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/model/PessoaModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/repository/PessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/repository/PessoaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/service/PessoaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/service/PessoaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/service/interfaces/IPessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/domain/service/interfaces/IPessoaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,15 +31,19 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="servico-vendas" />
+        <entry key="$PROJECT_DIR$" value="local" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/servico-pessoa/pom.xml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/servico-produto/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/exceptionhandler/ApiExceptionHandler.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/servico-venda/pom.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -99,6 +95,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ServicoPessoaApplication">
+    <configuration name="AuthApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.letscode.auth.AuthApplicationTests" />
+      <module name="auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.letscode.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="EurekaServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.EurekaServerApplication" />
@@ -128,11 +137,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AuthApplicationTests" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ServicoPessoaApplication" />
       <item itemvalue="Spring Boot.ServicoProdutoApplication" />
       <item itemvalue="Spring Boot.ServicoVendaApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AuthApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -212,14 +227,7 @@
       <option name="project" value="LOCAL" />
       <updated>1653955713688</updated>
     </task>
-    <task id="LOCAL-00010" summary="DTO mapper Pessoa">
-      <created>1654084706170</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1654084706170</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +259,6 @@
     <MESSAGE value="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)" />
     <MESSAGE value="added eureka server and added eureka discovery to pessoa" />
     <MESSAGE value="update ignore" />
-    <MESSAGE value="DTO mapper Pessoa" />
-    <option name="LAST_COMMIT_MESSAGE" value="DTO mapper Pessoa" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ignore" />
   </component>
 </project>

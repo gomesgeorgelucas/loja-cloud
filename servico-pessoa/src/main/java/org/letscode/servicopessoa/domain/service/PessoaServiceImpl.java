@@ -1,5 +1,6 @@
 package org.letscode.servicopessoa.domain.service;
 
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import lombok.AllArgsConstructor;
 import org.letscode.servicopessoa.domain.model.PessoaModel;
 import org.letscode.servicopessoa.domain.repository.PessoaRepository;
