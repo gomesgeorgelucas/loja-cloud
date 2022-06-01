@@ -7,36 +7,22 @@ server:
     include-exception: false
 
 spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/loja-cloud
+    username: postgres
+    password: password
+    pool:
+      enabled: true
+  application:
+    name: servico-pessoa
   boot:
     admin:
       client:
-        url: http://localhost:8081
+        url: http://localhost:1111
         username: admin
         password: 123
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/loja-cloud
-    username: postgres
-    password: password
-  jpa:
-    open-in-view: false
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-    hibernate:
-      ddl-auto: create
-    properties:
-      "[hibernate.generate_statistics]": true
-    defer-datasource-initialization: true
-    show-sql: true
   main:
     banner-mode: off
-  sql:
-    init:
-      mode: always
-  application:
-    name: servico-pessoa
-eureka:
-  instance:
-    hostname: localhost
 
 management:
   endpoints:
@@ -69,5 +55,9 @@ management:
 
 info:
   application:
-    nome: "Serviço de Pessoas"
+    nome: "Serviço dos Pessoas"
     descricao: "API de Pessoas"
+
+eureka:
+  instance:
+    hostname: localhost

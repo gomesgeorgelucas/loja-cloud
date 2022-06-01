@@ -4,28 +4,28 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import javax.persistence.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Column;
+import org.springframework.data.relational.core.mapping.Table;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "lc_pessoa")
+@Table(value = "lc_pessoa")
 public class PessoaModel {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_pessoa")
+    @Column(value = "id_pessoa")
     private Long pessoaId;
 
-    @Column(name = "name_pessoa", nullable = false)
+    @Column(value = "name_pessoa")
     private String pessoaName;
-    @Column(name = "surname_pessoa", nullable = false)
+    @Column(value = "surname_pessoa")
     private String pessoaSurname;
 
-    @Column(name = "login_pessoa", unique = true, nullable = false)
+    @Column(value = "login_pessoa")
     private String pessoaLogin;
 
-    @Column(name = "passwd_pessoa", nullable = false)
+    @Column(value = "passwd_pessoa")
     private String pessoaPassword;
 }
