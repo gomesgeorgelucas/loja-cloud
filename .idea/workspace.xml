@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)">
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/CarrinhoCompraRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/PessoaFeingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/model/Venda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/repository/VendaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/org/letscode/auth/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/org/letscode/auth/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/letscode/gateway/config/ZuulConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/core/JwtConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-pessoa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/service/PessoaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/service/PessoaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/model/PessoaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/model/PessoaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/repository/PessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/repository/PessoaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-pessoa/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/servico-pessoa/src/main/resources/data/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servico-produto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/controller/ProdutoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/repository/PessoaFeingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +50,20 @@
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/auth/src/main/java/org/letscode/auth/security/config/SecurityCredentialsConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/auth/src/main/java/org/letscode/auth/security/filter/JwtUsernameAndPasswordAuthenticationFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/gateway/src/main/java/org/letscode/gateway/config/ZuulConfiguration.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/gateway/src/main/java/org/letscode/gateway/security/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/servico-pessoa/pom.xml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/controller/PessoaController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/servico-pessoa/src/main/java/org/letscode/servicopessoa/service/PessoaServiceImpl.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/servico-produto/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/ServicoProdutoApplication.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/exceptionhandler/ApiExceptionHandler.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/servico-venda/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/token/src/main/java/org/letscode/token/token/converter/TokenConverter.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -77,6 +94,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -87,12 +105,14 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "jdk.selected.JAVA_MODULE": "corretto-11",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "60706fe2dc3397f374bb32d85ba3d3d3"
+    "spring.configuration.checksum": "5636719da324d4d6a16f2d3a9388e554",
+    "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -100,6 +120,18 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marcus.viniciusv\Desktop\vin\loja-cloud\gateway\src\main\java\org\letscode\gateway" />
+      <recent name="C:\Users\marcus.viniciusv\Desktop\vin\loja-cloud\servico-pessoa\src\main\resources\data" />
+      <recent name="C:\Users\marcus.viniciusv\Desktop\vin\loja-cloud\token\src\main\java\org\letscode\token" />
+      <recent name="C:\Users\marcus.viniciusv\Desktop\vin\loja-cloud\auth\src\main\java\org\letscode\auth" />
+      <recent name="C:\Users\marcus.viniciusv\Desktop\vin\loja-cloud\auth\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.letscode.token.config" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -107,10 +139,37 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServicoProdutoApplication">
+  <component name="RunManager" selected="Application.AuthApplicationTests">
+    <configuration name="AuthApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.letscode.auth.AuthApplicationTests" />
+      <module name="auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.letscode.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="EurekaServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.gateway.GatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,12 +195,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TokenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="token" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.letscode.token.TokenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.AuthApplicationTests" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.TokenApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication (1)" />
       <item itemvalue="Spring Boot.ServicoPessoaApplication" />
       <item itemvalue="Spring Boot.ServicoVendaApplication" />
       <item itemvalue="Spring Boot.ServicoProdutoApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AuthApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -157,6 +232,8 @@
       <workItem from="1653754475107" duration="1014000" />
       <workItem from="1653890607133" duration="46000" />
       <workItem from="1653949917187" duration="350000" />
+      <workItem from="1654058761723" duration="11075000" />
+      <workItem from="1654086979469" duration="17366000" />
     </task>
     <task id="LOCAL-00001" summary="projeto com modulos">
       <created>1653694467180</created>
@@ -238,5 +315,9 @@
     <MESSAGE value="feature:[service,model,repository] - Basic CRUD" />
     <MESSAGE value="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)" />
     <option name="LAST_COMMIT_MESSAGE" value="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

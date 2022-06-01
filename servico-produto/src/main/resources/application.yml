@@ -71,7 +71,11 @@ info:
     nome: "Serviço dos Produtos"
     descricao: "API de Produtos"
 
-  eureka:
+eureka:
     client:
       serviceUrl:
-        defaultZone: localhost
+        defaultZone: http://localhost:8761/eureka
+
+jwt:
+  config:
+    type: signed

@@ -1,0 +1,47 @@
+package org.letscode.servicopessoa.domain.service;
+
+import lombok.AllArgsConstructor;
+import org.letscode.servicopessoa.domain.model.PessoaModel;
+import org.letscode.servicopessoa.domain.repository.PessoaRepository;
+import org.letscode.servicopessoa.domain.service.interfaces.IPessoaService;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+@AllArgsConstructor
+public class PessoaServiceImpl implements IPessoaService {
+
+    private PessoaRepository pessoaRepository;
+
+    @Override
+    public PessoaModel createPessoa(PessoaModel pessoaModel) {
+        return pessoaRepository.save(pessoaModel);
+    }
+
+    @Override
+    public PessoaModel readPessoa(Long id) {
+        return pessoaRepository.findById(id).get();
+    }
+
+    @Override
+    public PessoaModel updatePessoa(Long id, PessoaModel pessoaModel) {
+        PessoaModel toUpdate = readPessoa(id);
+        toUpdate.setPessoaName(pessoaModel.getPessoaName());
+        toUpdate.setPessoaSurname(pessoaModel.getPessoaSurname());
+        toUpdate.setPessoaLogin(pessoaModel.getPessoaLogin());
+        toUpdate.setPessoaPassword(pessoaModel.getPessoaPassword());
+
+        return pessoaRepository.save(toUpdate);
+    }
+
+    @Override
+    public void deletePessoa(Long id) {
+        pessoaRepository.deleteById(id);
+    }
+
+    public List<PessoaModel> getPessoas(){
+        return pessoaRepository.findAll();
+    }
+
+}

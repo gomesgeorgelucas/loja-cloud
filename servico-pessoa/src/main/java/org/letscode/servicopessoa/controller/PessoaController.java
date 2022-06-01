@@ -1,13 +1,13 @@
 package org.letscode.servicopessoa.controller;
 
 import lombok.AllArgsConstructor;
-import org.letscode.servicopessoa.model.PessoaModel;
-import org.letscode.servicopessoa.service.PessoaServiceImpl;
+import org.letscode.servicopessoa.domain.model.PessoaModel;
+import org.letscode.servicopessoa.domain.service.PessoaServiceImpl;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RequestMapping("/api/v1/loja-cloud/pessoa")
+@RequestMapping("/pessoa")
 @RestController
 @AllArgsConstructor
 public class PessoaController {

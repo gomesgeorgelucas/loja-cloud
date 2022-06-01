@@ -12,7 +12,6 @@
 
     <groupId>org.letscode</groupId>
     <artifactId>servico-pessoa</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>servico-pessoa</name>
     <description>servico-pessoa</description>
 
