@@ -4,32 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="vanda base jpa">
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/client/ServicoPessoaClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/client/ServicoProdutoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/controller/VendaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/dto/PedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/dto/VendaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/fetch/CarrinhoCompra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/fetch/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/fetch/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/model/PedidoModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/repository/PedidoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/service/VendaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/service/interfaces/IVendaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4eaeb04a-07ad-4125-a28d-5279c8e7d33b" name="Changes" comment="base servico venda jpa - missing service logic">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_30_2022_6_53_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_30_2022_7_03_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-produto/src/main/java/org/letscode/servicoproduto/domain/model/CarrinhoCompra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-venda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-venda/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/ServicoVendaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/ServicoVendaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/model/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/model/VendaModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/repository/VendaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/repository/VendaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-venda/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servico-venda/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servico-venda/src/test/java/org/letscode/servicovenda/ServicoVendaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-venda/src/test/java/org/letscode/servicovenda/ServicoVendaApplicationTestsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/dto/PedidoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/servico-venda/src/main/java/org/letscode/servicovenda/domain/dto/PedidoDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653698881853</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="base servico venda jpa - missing service logic">
+      <created>1654093024630</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654093024630</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +241,7 @@
     <MESSAGE value="feature:[service,model,repository] - Basic CRUD" />
     <MESSAGE value="feature:[controller, postgres] - Basic Controller and JPA Postgres (Admin, User)" />
     <MESSAGE value="vanda base jpa" />
-    <option name="LAST_COMMIT_MESSAGE" value="vanda base jpa" />
+    <MESSAGE value="base servico venda jpa - missing service logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="base servico venda jpa - missing service logic" />
   </component>
 </project>
