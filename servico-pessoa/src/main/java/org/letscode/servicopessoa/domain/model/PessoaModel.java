@@ -28,7 +28,7 @@ public class PessoaModel {
     @Column(name = "login_pessoa", unique = true, nullable = false)
     String pessoaLogin;
 
-    @Column(name = "passwd_pessoa", nullable = false)
+    @Column(name = "password_pessoa", nullable = false)
     @ToString.Exclude
     String pessoaPassword;
 

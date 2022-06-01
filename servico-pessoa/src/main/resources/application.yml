@@ -9,31 +9,22 @@ server:
 spring:
   application:
     name: servico-pessoa
-  boot:
-    admin:
-      client:
-        url: http://localhost:1111
-        username: admin
-        password: 123
-        instance:
-          prefer-ip: true
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5433/loja-cloud
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5433/loja-cloud
     username: postgres
     password: postgres
-  jpa:
-    open-in-view: false
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-    hibernate:
-      ddl-auto: update
-    defer-datasource-initialization: true
-    show-sql: true
-  main:
-    banner-mode: off
-  sql:
-    init:
-      mode: always
+    pool:
+      enabled: true
+    application:
+      name: servico-pessoa
+    boot:
+      admin:
+        client:
+          url: http://localhost:1111
+          username: admin
+          password: 123
+    main:
+      banner-mode: off
 
 eureka:
   instance:
