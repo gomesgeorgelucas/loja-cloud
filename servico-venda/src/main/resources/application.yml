@@ -6,12 +6,18 @@ server:
     include-message: never
     include-exception: false
 
+eureka:
+  instance:
+    hostname: localhost
+
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5433/loja-cloud
+    url: jdbc:postgresql://localhost:5432/loja-cloud
     username: postgres
-    password: postgres
+    password: password
+  application:
+    name: servico-venda
   jpa:
     open-in-view: false
     database-platform: org.hibernate.dialect.PostgreSQLDialect
@@ -24,3 +30,57 @@ spring:
   sql:
     init:
       mode: always
+
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        registerHealthIndicator: true
+        slidingWindowSize: 10
+        minimumNumberOfCalls: 3
+        permittedNumberOfCallsInHalfOpenState: 3
+        automaticTransitionFromOpenToHalfOpenEnabled: true
+        waitDurationInOpenState: 10s
+        failureRateThreshold: 50
+    instances:
+      servico:
+        baseConfig: default
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "metrics,health,info"
+    enabled-by-default: false
+    jmx:
+      exposure:
+        exclude: "metrics"
+  metrics:
+    enable:
+      executor: false
+  health:
+    diskspace:
+      enabled: false
+  info:
+    env:
+      enabled: true
+    java:
+      enabled: true
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+    metrics:
+      enabled: true
+    info:
+      enabled: true
+
+info:
+  application:
+    nome: "Servico dos Vendas"
+    descricao: "API de Vendas"
+
+  eureka:
+    client:
+      serviceUrl:
+        defaultZone: localhost

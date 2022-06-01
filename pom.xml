@@ -25,6 +25,7 @@
     </properties>
 
     <modules>
+        <module>EurekaServer</module>
         <module>servico-pessoa</module>
         <module>servico-venda</module>
         <module>servico-produto</module>
